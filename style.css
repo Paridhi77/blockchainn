@@ -1,0 +1,319 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px 20px;
+}
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Pushes the logo slightly towards the center */
+    padding-left:60px; /* Adjust this value as needed to fine-tune the position */
+}
+.logo1{
+    color: rgb(225, 26, 26) ;
+    font-size:20px;
+}
+.navbar .dropdown {
+    margin-left:80px;
+    position: relative;
+}
+.navbar .dropdown button {
+    background-color: rgb(135, 28, 28);
+    color: rgb(255, 246, 246);
+    border-radius: 22px;
+    cursor: pointer;
+    padding: 10px;
+}
+.navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(220, 217, 217, 0.2);
+    z-index: 1;
+}
+.navbar .dropdown-content a {
+    color: rgb(255, 252, 252);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.navbar .dropdown-content a:hover {
+    background-color: #600e0e;
+}
+.navbar .dropdown:hover .dropdown-content {
+    display: block;
+}
+.navbar .menu {
+    list-style-type: none;
+    margin: 0;
+    padding-right:120px; /* Adjust this value as needed to fine-tune the position */
+    display: flex;
+}
+.navbar .menu a {
+    color: rgb(225, 26, 26);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    gap: 5;
+
+}
+.navbar .menu a:hover {
+   
+        background-color: rgb(66, 5, 5);
+        border-radius: 8px;
+        box-shadow: inset 3px 3px 10px rgb(227, 125, 125);
+    }
+    .btn{
+        background-color:rgb(225, 26, 26); 
+        color: white;
+        border-radius:27px;
+        padding: 8px;
+    }
+    .btn:hover{
+    color:rgb(225, 26, 26) ;
+    background-color: white;
+    border-color: rgb(225, 26, 26);
+    }
+   
+.navbar .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.navbar .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px;
+}
+.navbar .menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: #333;
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .navbar .menu {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar .hamburger {
+        display: flex;
+    }
+}
+/*banner and program*/
+.img{
+    height: 300px;
+    width: 400px;
+}
+.pa{
+    margin: auto;
+}
+.hd{
+    font-size:60px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pa2{
+    position: relative;
+    margin-left: auto;
+}
+.img1{
+    height:300px;
+    width: 360px;
+}
+.ha1{
+    color: rgb(186, 67, 24);
+}
+.link{
+    color: #cac6c6;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btnA{
+    background-color: rgb(137, 40, 5);
+    color: #e0e0e0;
+    border-radius:10px;
+    font-size: 20px;
+}
+.btnA:hover{
+    background-color: #e0e0e0;
+    color: rgb(169, 51, 8);
+    border-color: orangered;
+}
+/*cards*/
+
+.head{
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(129, 29, 29);
+    text-align: center;
+    font-weight:bolder;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    text-align: left;
+    margin: 20px;
+}
+
+.card-image-container {
+    width: 100%;
+    height: 120px; /* Adjust the height to show half of the image */
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-heading {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.card-subheading {
+    font-size: 1em;
+    color: #555;
+    margin: 0.2em 0;
+}
+
+.card-label {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border-radius: 4px;
+    background-color: #e0e0e0;
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 0.5em;
+}
+/*section*/
+
+
+.container1 {
+    padding: 15px;
+    background-color: white;
+}
+
+.heading {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.content { 
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 2em;
+    margin-right: 20px; /* Space between icon and text */
+}
+
+.text {
+    font-size: 1em;
+    color: #555;
+}
+.span1{
+    font-weight: bolder;
+    color: #00262b;;
+}
+
+/*outcomes*/
+.heading2{
+    font-size: 4em;
+    text-align: center;
+    margin-bottom:10px;
+  color: rgb(129, 29, 29);
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+.container2 {
+    background-color: #00262b;
+padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.benefit {
+    display: flex;
+    align-items: flex-start;
+}
+
+.icon {
+    font-size: 2em;
+}
+
+.text {
+    font-size: 1em;
+    color: #cac6c6;
+}
+/*cert*/
+.hd1{
+    color: rgb(126, 12, 12);
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+/*footer*/
+.footer {
+    background-color: #000;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 4fr ;
+  }
+  .footer-links {
+    margin-top: 20px;
+    text-align: left;
+  }
+  .footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+  }
+  .footer-links a:before {
+    content: "\2022";  /* Bullet point */
+    margin-right: 10px;
+  }
+  .footer-links a:hover {
+    text-decoration: underline;
+  }

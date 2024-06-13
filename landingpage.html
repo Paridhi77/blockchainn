@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Menu with Offset Logo</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <div class="logo1">⌘ 𝕭𝖑𝖔𝖈𝖐𝖈𝖍𝖆𝖎𝖓</div>
+                <div class="dropdown">
+                    <button class="button1">Explore Course</button>
+                    <div class="dropdown-content">
+                        <h6 class="text-secondary font-weight-bolder"><a href="#">By Goal</a></h6>
+                        <a href="#">Take a coure</a>
+                        <a href="#">Earn a Certificate</a>
+                        <a href="#">Earn a degree</a>
+                        <h6 class="text-secondary font-weight-bolder"><a href="#">By Topics</a></h6>
+                        <a href="#">Artificial Intelligence</a>
+                        <a href="#">Data Science</a>
+                        <a href="#">Business Administration</a>
+                        <a href="#">Cybersecurity</a>
+                        <a href="#">Computer Science</a>
+                        <a href="#">Data Analysis</a>
+                        <a href="#">View all topics→</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <button class="btn">Register</button>
+            </div>
+        </div>
+    </header>
+    <!---end of navbar sec-->
+
+    <!--start programing and bannner-->
+
+    <section id="banner" class="jumbotron text-center bg-dark">
+        <div class="container">
+            <h1 class="jumbotron-heading animate__animated animate__fadeInUp ha1">Blockchain Program</h1>
+            <p class="lead text-muted animate__animated animate__fadeInUp">Learn about the revolutionary technology that
+                is changing the world.</p>
+        </div>
+    </section>
+
+    <section id="content" class="container my-5">
+        <div class="row">
+            <div class="col-lg-6 gap-5 animate__animated animate__fadeInRight">
+                <h2 class="ha1">What is Blockchain?</h2>
+                <p class="text-white">
+                    Blockchain is a decentralized ledger of all transactions across a network. It enables secure and
+                    transparent record-keeping, which is crucial for various applications such as cryptocurrency, supply
+                    chain management, and more.
+                </p>
+                <dotlottie-player src="https://lottie.host/5fdff045-33f1-420e-b518-30588ce137b8/Zd7FxrCO4T.json"
+                    background="transparent" speed="1" style="width: 300px; height: 300px;" loop
+                    autoplay></dotlottie-player>
+
+                <p class="text-white">
+                    Each block in the blockchain contains a set of transactions, and once a block is completed, it is
+                    added to the chain in a linear, chronological order. This ensures data integrity and prevents
+                    tampering.
+                </p>
+
+            </div>
+            <div class="col-lg-6">
+
+                <img src="image2.avif" alt=" Blockchain"
+                    class=" img img-fluid animate__animated animate__zoomIn ps-5 pb-5">
+            </div>
+
+            <div class="col-lg-4">
+                <img src="image4.avif" alt="Blockchain" class=" img img-fluid animate__animated animate__zoomIn ">
+
+            </div>
+            <p class="col-lg-6 pa text-white"><span class="fw-bolder text-danger"><br>KEY TAKEAWAYS<br></span>
+                Block chain is a type of shared database that differs from a typical database in the way it stores
+                information; blockchains store data in blocks linked together via cryptography.
+                Different types of information can be stored on a blockchain, but the most common use for transactions
+                has been as a ledger.
+                In Bitcoin’s case, blockchain is decentralized so that no single person or group has control—instead,
+                all users collectively retain control.
+                Decentralized blockchains are immutable, which means that the data entered is irreversible. For Bitcoin,
+                transactions are permanently recorded and viewable to anyone.
+            </p><br>
+
+            <p class=" ml-5 pb-5 link"><a href="#">know More→</a></p>
+
+
+            <div class="col-lg-6">
+                <img src="image5.avif" alt="Blockchain"
+                    class=" img1 img-fluid animate__animated animate__zoomIn mr-lg-3 my-5">
+            </div>
+            <h3 class="font-weight-bolder hd col-lg-6 pa animate__animated animate__fadeInRight ha1">How Blockchain
+                Works ⟁<br>
+                <button class="btnA">View More</button>
+            </h3>
+
+            <div class="animate__animated animate__fadeInRight text-white">
+                <p class="pa2">
+                    Blockchain technology works by using a distributed network of computers (nodes) to validate and
+                    record transactions. Each transaction is grouped with others into a block and then added to a chain
+                    of previous transactions, forming the blockchain.
+                </p>
+                <p>
+                    Once a block is added, it cannot be changed without altering all subsequent blocks, which requires
+                    consensus among the network. This makes blockchain highly secure and immutable.
+                </p>
+                <p><span class="font-weight-bold text-warning">Transaction Process</span>
+                    Transactions follow a specific process, depending on the blockchain they are taking place on. For
+                    example, on Bitcoin's blockchain, if you initiate a transaction using your cryptocurrency wallet—the
+                    application that provides an interface for the blockchain—it starts a sequence of events.
+
+                    In Bitcoin, your transaction is sent to a memory pool, where it is stored and queued until a miner
+                    or validator picks it up. Once it is entered into a block and the block fills up with transactions,
+                    it is closed and encrypted using an encryption algorithm. Then, the mining begins.</p>
+            </div>
+            <div class="mx-auto">
+                <dotlottie-player src="https://lottie.host/1dbd59d6-8d88-43a0-8737-bd598c7ec66c/yud9QKIfDF.json"
+                    background="transparent" speed="1" style="width: 300px; height: 300px;" loop
+                    autoplay></dotlottie-player>
+            </div>
+
+            <div class="animate__animated animate__fadeInLeft">
+                <h1 class="col-lg-6 font-weight-bold text-secondary">Is Blockchain Secure?</h1>
+                <p class="text-light">Blockchain technology achieves decentralized security and trust in several ways.
+                    To begin with, new
+                    blocks are always stored linearly and chronologically. That is, they are always added to the “end”
+                    of
+                    the blockchain. After a block has been added to the end of the blockchain, previous blocks cannot be
+                    changed.
+                    A change in any data changes the hash of the block it was in. Because each block contains the
+                    previous
+                    block's hash, a change in one would change the following blocks. The network would reject an altered
+                    block because the hashes would not match.
+                </p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!---section--->
+
+    <div class="container1">
+        <h1 class="heading">Find new interests and advance your career opportunities</h1>
+        <hr class="divider">
+        <div class="content">
+            <div class="icon"><img src="check.png"></div>
+            <p class="text"><span class="span1">Stand out in your field</span><br>
+                Use the knowledge and skills you have gained to drive impact at work and grow your career.</p>
+            <div class="icon"><img src="clock.png"></div>
+            <p class="text"><span class="span1">Learn at your own pace</span><br>
+                On your computer, tablet or phone, online courses make learning flexible to fit your busy life.</p>
+            <div class="icon"><img src="rise.png"></div>
+            <p class="text"><span class="span1">Earn a valuable credential</span><br>
+                Showcase your key skills and valuable knowledge.</p>
+        </div>
+    </div>
+    <!--card-->
+
+    <div class="baground2">
+        <h1 class="head">Blockchain Courses</h1>
+        <div class="container-xl">
+            <div class="container mt-5 service">
+                <div class="row cardall">
+                    <div class="col-md-3">
+                        <div class="card animate__animated animate__fadeInUp animate__delay-1s">
+                            <div class="card-image-container">
+                                <img src="card1.webp" alt="Blockchain Course Image" class="card-image">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-heading">Introduction to Blockchain</h2>
+                                <p class="card-subheading">IBM</p>
+                                <span class="card-label">Course</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card animate__animated animate__fadeInUp animate__delay-1s">
+                            <div class="card-image-container">
+                                <img src="card2.webp" alt="Blockchain Course Image" class="card-image">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-heading">Introduction to Blockchain and Web3</h2>
+                                <p class="card-subheading">Web3 Foundation</p>
+                                <span class="card-label">Course</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card animate__animated animate__fadeInUp animate__delay-1s">
+                            <div class="card-image-container">
+                                <img src="card3.webp" alt="Blockchain Course Image" class="card-image">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-heading"> Blockchain Technology</h2>
+                                <p class="card-subheading">BerkeleyX</p>
+                                <span class="card-label">Course</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card animate__animated animate__fadeInUp animate__delay-1s">
+                            <div class="card-image-container">
+                                <img src="card4.webp" alt="Blockchain Course Image" class="card-image">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-heading">Bitcoin and Cryptocurrencies</h2>
+                                <p class="card-subheading">Berkeley</p>
+                                <span class="card-label">Course</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card animate__animated animate__fadeInUp animate__delay-1s">
+                            <div class="card-image-container">
+                                <img src="card5.webp" alt="Blockchain Course Image" class="card-image">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-heading">Blockchain Implementation and Regulation</h2>
+                                <p class="card-subheading">SDA_Bocconi</p>
+                                <span class="card-label">Course</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card  animate__animated animate__fadeInUp animate__delay-1s">
+                            <div class="card-image-container">
+                                <img src="card6.webp" alt="Blockchain Course Image" class="card-image">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-heading">Digital Currency</h2>
+                                <p class="card-subheading">Discover the technologies underlying the future of money</p>
+                                <span class="card-label">Course</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card  animate__animated animate__fadeInUp animate__delay-1s">
+                            <div class="card-image-container">
+                                <img src="card7.webp" alt="Blockchain Course Image" class="card-image">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-heading">Blockchain and Implications</h2>
+                                <p class="card-subheading"> LinuxFoundation</p>
+                                <span class="card-label">Course</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card  animate__animated animate__fadeInUp animate__delay-1s">
+                            <div class="card-image-container">
+                                <img src="card8.webp" alt="Blockchain Course Image" class="card-image">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-heading">Introduction to Cloud Computing
+                                </h2>
+                                <p class="card-subheading">BMI</p>
+                                <span class="card-label">Course</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--outcomes-->
+        <h1 class="heading2">What are the benefits of blockchain?</h1>
+        <div class="container2">
+
+            <div class="benefit">
+                <div class="icon">🔒</div>
+                <p class="text">Enhanced Security: Blockchain technology ensures that your data is encrypted and
+                    protected from unauthorized access.</p>
+            </div>
+            <div class="benefit">
+                <div class="icon">🔍</div>
+                <p class="text">Transparency: All transactions are recorded on a public ledger, making the process
+                    transparent and easily verifiable.</p>
+            </div>
+            <div class="benefit">
+                <div class="icon">⏱️</div>
+                <p class="text">Efficiency: Blockchain reduces the need for intermediaries, speeding up transactions and
+                    reducing costs.</p>
+            </div>
+            <div class="benefit">
+                <div class="icon">💰</div>
+                <p class="text">Cost Savings: By eliminating the middlemen, blockchain can significantly reduce
+                    transaction fees.</p>
+            </div>
+            <div class="benefit">
+                <div class="icon">🌐</div>
+                <p class="text">Decentralization: Blockchain operates on a decentralized network, making it resistant to
+                    censorship and central points of failure.</p>
+            </div>
+        </div>
+        <!--cert-->
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <h2 class="hd1">Certificate in Blockchain Technology </h2>
+                    <p class="text-white">Certificate in Blockchain technology helps understand concepts of blockchain
+                        and all the
+                        foundational elements of building applications on Ethereum, Hyperledger and Quorum.</p>
+
+                    <p class="text-warning">For more information or to apply, please contact us at:</p>
+                    <div class="mt-3">
+                        <a href="mailto:contact@example.com" class="btn btn-primary mr-3">Email Us</a>
+                        <a href="#" class="btn btn-secondary">Apply Here</a>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="grid-tempate-column">
+                <div class="col-md-12">
+                    <p>Connect with us:</p>
+                    <div class="social-icons">
+                        <img src="facebook.png" alt="Facebook">
+                        <img src="twitter.png" alt="Twitter">
+                        <img src="linkedin.png" alt="LinkedIn">
+                        <img src="instagram.png" alt="instagram">
+                        <!-- Add more social media icons as needed -->
+                        <div class="float-right img-fluid mt-5">
+                            <dotlottie-player src="https://lottie.host/7388147c-bd06-4bca-8e67-b21871a6b7ba/tuknAzhWZE.json"
+                                background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player></div>
+                    
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer-links">
+                <a href="#"> Affiliates</a>
+                <a href="#"> Open edX</a>
+                <a href="#"> 2U Advisory Council</a>
+                <a href="#"> Careers</a>
+                <a href="#"> News</a>
+                <a href="#"> Connect</a>
+                <a href="#"> Idea Hub</a>
+                    <a href="#"> Contact Us</a>
+                    <a href="#"> Help Center</a>
+                    <a href="#">Security</a>
+                    <a href="#"> Media Kit</a>
+                    <a href="#"> Legal</a>
+                    <a href="#"> Terms of Service & Honor Code</a>
+                    <a href="#"> Privacy Policy</a>
+                    <a href="#"> Cookie Policy</a>
+                    <a href="#"> Accessibility Policy</a>
+                </div>
+            </div>
+            <hr>
+            
+            <p>&copy; 2024 Blockchain Online Course. All rights reserved.</p>
+            
+        </div>
+    
+    </footer>
+
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
